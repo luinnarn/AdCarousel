@@ -1,6 +1,6 @@
 ﻿namespace AdProvider.Model
 {
-    internal class Weather
+    public class Weather
     {
         public Weather(float temperature)
         {

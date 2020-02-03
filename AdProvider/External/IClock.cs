@@ -2,7 +2,7 @@
 
 namespace AdProvider.External
 {
-    internal interface IClock
+    public interface IClock
     {
         DateTime Now();
     }

@@ -6,6 +6,6 @@ namespace AdProvider.Repository
 {
     internal interface IAdvertisementRepository
     {
-        Task<IList<Advertisement>> Read();
+        Task<IEnumerable<Advertisement>> Read();
     }
 }

@@ -15,7 +15,7 @@ namespace AdCarouselView
             adProvider.ActiveAdvertisements -= ActiveAdvertisements;
         }
 
-        private static void ActiveAdvertisements(object sender, IList<Advertisement> advertisements)
+        private static void ActiveAdvertisements(object sender, IEnumerable<Advertisement> advertisements)
         {
             Console.WriteLine($"Showing {string.Join(", ", advertisements)}");
         }
